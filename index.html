@@ -1,660 +1,1446 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Market Is Yours</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- ─── Navbar ─────────────────────────────────────────────────────── -->
     <header class="navbar">
-        <div class="container">
-            <a href="#" class="logo">
-             <img style="width: 90px; height: 90px; margin-top: 30px;" src="Imagenes/bitmap2.svg" alt="">
-                <span class="logo-text">Market Is Yours<span>.</span></span>
-            </a>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            style="width: 90px; height: 90px; margin-top: 30px"
+            src="Imagenes/bitmap2.svg"
+            alt=""
+          />
+          <span class="logo-text">Market Is Yours<span>.</span></span>
+        </a>
 
-            <nav class="nav-links">
-                <a href="#inicio">Inicio</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#precios">Precios</a>
-                <a href="#portafolio">Portafolio</a>
-                <a href="#testimonios">Testimonios</a>
-                <a href="#">Blog</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
+        <nav class="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#precios">Precios</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#">Blog</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
 
-            <div class="nav-actions">
-                <a href="#contacto" class="btn-primary">Solicitar Cotización</a>
-                <button class="nav-toggle" id="navToggle" aria-label="Menú">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="4" x2="20" y1="6" y2="6" />
-                        <line x1="4" x2="20" y1="12" y2="12" />
-                        <line x1="4" x2="20" y1="18" y2="18" />
-                    </svg>
-                </button>
-            </div>
+        <div class="nav-actions">
+          <a href="#contacto" class="btn-primary">Solicitar Cotización</a>
+          <button class="nav-toggle" id="navToggle" aria-label="Menú">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
         </div>
-        <!-- Mobile Menu -->
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#precios">Precios</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#testimonios">Testimonios</a>
-            <a href="#">Blog</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#contacto" class="btn-primary" style="display:block;text-align:center;margin-top:16px;padding:13px;">Solicitar Cotización</a>
-        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#precios">Precios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#">Blog</a>
+        <a href="#contacto">Contacto</a>
+        <a
+          href="#contacto"
+          class="btn-primary"
+          style="
+            display: block;
+            text-align: center;
+            margin-top: 16px;
+            padding: 13px;
+          "
+          >Solicitar Cotización</a
+        >
+      </div>
     </header>
 
     <!-- ─── Hero ───────────────────────────────────────────────────────── -->
     <section id="inicio" class="hero">
-        <div class="container">
-            <div class="hero-grid">
-                <div>
-                    <div class="hero-badge">
-                        <span class="dot"></span>
-                        Agencia Digital Premium — Desde 2026
-                    </div>
-                    <h1>
-                        Potenciamos tu presencia online para impulsar
-                        <span class="gradient-text">El Crecimiento De Tu Empresa.</span>
-                    </h1>
-                    <p>
-                       Creamos estrategias de marketing que conectan tu marca con el público ideal, impulsando resultados reales y sostenibles.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="#contacto" class="btn-primary">
-                            Comenzar Ahora
-                            <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                        </a>
-                        <a href="#servicios" class="btn-secondary">Ver Servicios</a>
-                    </div>
-                    <div class="hero-social-proof">
-                        <div style="display:flex;align-items:center;gap:10px;">
-                            <div class="hero-avatars">
-                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&auto=format" alt="" />
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&auto=format" alt="" />
-                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=40&h=40&fit=crop&auto=format" alt="" />
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&auto=format" alt="" />
-                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&auto=format" alt="" />
-                            </div>
-                            <div>
-                                <div style="font-size:13px;font-weight:700;color:#0f172a;">+20 clientes activos</div>
-                                <div class="hero-stars">
-                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="width:1px;height:36px;background:#e2e8f0;"></div>
-                        <div style="font-size:13px;color:#64748b;line-height:1.8;">
-                            <span style="color:#10b981;font-weight:700;">✓</span> Sin contratos permanentes<br />
-                            <span style="color:#10b981;font-weight:700;">✓</span> Resultados garantizados
-                        </div>
-                    </div>
-                </div>
-
-<div class="hero-visual">
-                    <div class="main-img">
-                       <video height="700" width="600" controls>
-                           <source src="Video/Presentacion.mp4" type="video/mp4">
-                       </video>
-                    </div>
-                    <div class="float-card float-card-1">
-                        <div class="label">ROI Promedio</div>
-                        <div class="value">+70%</div>
-                    </div>
-                    <div class="float-card float-card-2">
-                        <div class="label">Campañas activas</div>
-                        <div class="value">6</div>
-                    </div>
-                    <div class="hero-ring"></div>
-                </div>
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-badge">
+              <span class="dot"></span>
+              Agencia Digital Premium — Desde 2026
             </div>
+            <h1>
+              Potenciamos tu presencia online para impulsar
+              <span class="gradient-text">El Crecimiento De Tu Empresa.</span>
+            </h1>
+            <p>
+              Creamos estrategias de marketing que conectan tu marca con el
+              público ideal, impulsando resultados reales y sostenibles.
+            </p>
+            <div class="hero-actions">
+              <a href="#contacto" class="btn-primary">
+                Comenzar Ahora
+                <svg class="icon-arrow" viewBox="0 0 24 24">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+              <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+            </div>
+            <div class="hero-social-proof">
+              <div style="display: flex; align-items: center; gap: 10px">
+                <div class="hero-avatars">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&auto=format"
+                    alt=""
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&auto=format"
+                    alt=""
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=40&h=40&fit=crop&auto=format"
+                    alt=""
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&auto=format"
+                    alt=""
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&auto=format"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div
+                    style="font-size: 13px; font-weight: 700; color: #0f172a"
+                  >
+                    +20 clientes activos
+                  </div>
+                  <div class="hero-stars">
+                    <svg viewBox="0 0 24 24">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                    <svg viewBox="0 0 24 24">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 1px; height: 36px; background: #e2e8f0"></div>
+              <div style="font-size: 13px; color: #64748b; line-height: 1.8">
+                <span style="color: #10b981; font-weight: 700">✓</span> Sin
+                contratos permanentes<br />
+                <span style="color: #10b981; font-weight: 700">✓</span>
+                Resultados garantizados
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="main-img">
+              <video height="700" width="600" controls>
+                <source src="Video/Presentacion.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="float-card float-card-1">
+              <div class="label">ROI Promedio</div>
+              <div class="value">+70%</div>
+            </div>
+            <div class="float-card float-card-2">
+              <div class="label">Campañas activas</div>
+              <div class="value">6</div>
+            </div>
+            <div class="hero-ring"></div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ─── Stats ───────────────────────────────────────────────────────── -->
     <section class="stats">
-        <div class="stats-grid">
-            <div class="stats-item">
-                <div class="number">+15</div>
-                <div class="label">Clientes satisfechos</div>
-            </div>
-            <div class="stats-item">
-                <div class="number">+35</div>
-                <div class="label">Campañas ejecutadas</div>
-            </div>
-            <div class="stats-item">
-                <div class="number">+6</div>
-                <div class="label">Meses de experiencia</div>
-            </div>
-            <div class="stats-item">
-                <div class="number">92%</div>
-                <div class="label">Tasa de satisfacción</div>
-            </div>
+      <div class="stats-grid">
+        <div class="stats-item">
+          <div class="number">+15</div>
+          <div class="label">Clientes satisfechos</div>
         </div>
+        <div class="stats-item">
+          <div class="number">+35</div>
+          <div class="label">Campañas ejecutadas</div>
+        </div>
+        <div class="stats-item">
+          <div class="number">+6</div>
+          <div class="label">Meses de experiencia</div>
+        </div>
+        <div class="stats-item">
+          <div class="number">92%</div>
+          <div class="label">Tasa de satisfacción</div>
+        </div>
+      </div>
     </section>
 
     <!-- ─── Services ────────────────────────────────────────────────────── -->
     <section id="servicios" class="services">
-        <div class="text-center" style="margin-bottom:60px;">
-            <span class="section-badge" style="background:#eff6ff;border:1px solid #bfdbfe;color:#2563EB;">Nuestros Servicios</span>
-            <h2 class="section-title">
-                Las herramientas y estrategias que tu marca necesita<br />para
-                <span class="gradient-text">crecer digitalmente</span>
-            </h2>
-            <p class="section-sub">
-                Servicios integrados de marketing digital para empresas que buscan liderar en su industria.
-            </p>
-        </div>
+      <div class="text-center" style="margin-bottom: 60px">
+        <span
+          class="section-badge"
+          style="background: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb"
+          >Nuestros Servicios</span
+        >
+        <h2 class="section-title">
+          Las herramientas y estrategias que tu marca necesita<br />para
+          <span class="gradient-text">crecer digitalmente</span>
+        </h2>
+        <p class="section-sub">
+          Servicios integrados de marketing digital para empresas que buscan
+          liderar en su industria.
+        </p>
+      </div>
 
-        <div class="services-grid">
-            <!-- Service 1: Ventas Digitales -->
-            <div class="service-card" style="border-color:#2563EB;">
-                <div class="service-icon" style="background:#dbeafe;color:#2563EB;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                </div>
-                <h3>Ventas Digitales</h3>
-                <p>Vendemos tus productos a un precio accesibles.</p>
-                <a href="#contacto" class="more" style="color:#2563EB;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 2: Campañas Publicitarias -->
-            <div class="service-card" style="border-color:#7c3aed;">
-                <div class="service-icon" style="background:#ede9fe;color:#7c3aed;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                </div>
-                <h3>Campañas Publicitarias</h3>
-                <p>Mostramos tu producto mediante distintos metodos como Meta Ads y Google Ads.</p>
-                <a href="#contacto" class="more" style="color:#7c3aed;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 3: Social Ads -->
-            <div class="service-card" style="border-color:#2563EB;">
-                <div class="service-icon" style="background:#dbeafe;color:#2563EB;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                </div>
-                <h3>Facebook &amp; Instagram Ads</h3>
-                <p>Anuncios que conectan con tu audiencia ideal en las redes sociales más influyentes.</p>
-                <a href="#contacto" class="more" style="color:#2563EB;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 4: seguridad -->
-            <div class="service-card" style="border-color:#10b981;">
-                <div class="service-icon" style="background:#d1fae5;color:#10b981;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </div>
-                <h3>Seguridad</h3>
-                <p>Protegemos tu datos y tus productos mediante tecnicas como reCAPTCHA, entre otras.</p>
-                <a href="#contacto" class="more" style="color:#10b981;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 5: Promociones -->
-            <div class="service-card" style="border-color:#7c3aed;">
-                <div class="service-icon" style="background:#ede9fe;color:#7c3aed;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20A14.5 14.5 0 0 0 12 2"/><path d="M2 12h20"/></svg>
-                </div>
-                <h3>Promociones</h3>
-                <p>Damos promociones para que tus productos se vendan mas.</p>
-                <a href="#contacto" class="more" style="color:#7c3aed;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 6: Servicio Domiciliario -->
-            <div class="service-card" style="border-color:#10b981;">
-                <div class="service-icon" style="background:#d1fae5;color:#10b981;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                </div>
-                <h3>Servicio Domiciliario</h3>
-                <p>Ofrecemos servicio domiciliario gratuito en zonas cercanas y precios bajos de contraentrega.</p>
-                <a href="#contacto" class="more" style="color:#10b981;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 7: Automatización -->
-            <div class="service-card" style="border-color:#2563EB;">
-                <div class="service-icon" style="background:#dbeafe;color:#2563EB;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="m9 8 3 3 3-3"/></svg>
-                </div>
-                <h3>Automatización</h3>
-                <p>Busquedas de productos y clientes rapidas gracias a nuestras bases de datos.</p>
-                <a href="#contacto" class="more" style="color:#2563EB;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
-            <!-- Service 8: Metodos de Pago -->
-            <div class="service-card" style="border-color:#7c3aed;">
-                <div class="service-icon" style="background:#ede9fe;color:#7c3aed;">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/><line x1="2" x2="22" y1="20" y2="20"/></svg>
-                </div>
-                <h3>Metodos de Pago</h3>
-                <p>Metodos de pago faciles, sencillos y seguros.</p>
-                <a href="#contacto" class="more" style="color:#7c3aed;">Más información <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-            </div>
+      <div class="services-grid">
+        <!-- Service 1: Ventas Digitales -->
+        <div class="service-card" style="border-color: #2563eb">
+          <div class="service-icon" style="background: #dbeafe; color: #2563eb">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.35-4.35" />
+            </svg>
+          </div>
+          <h3>Ventas Digitales</h3>
+          <p>Vendemos tus productos a un precio accesibles.</p>
+          <a href="#contacto" class="more" style="color: #2563eb"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
         </div>
+        <!-- Service 2: Campañas Publicitarias -->
+        <div class="service-card" style="border-color: #7c3aed">
+          <div class="service-icon" style="background: #ede9fe; color: #7c3aed">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+          </div>
+          <h3>Campañas Publicitarias</h3>
+          <p>
+            Mostramos tu producto mediante distintos metodos como Meta Ads y
+            Google Ads.
+          </p>
+          <a href="#contacto" class="more" style="color: #7c3aed"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 3: Social Ads -->
+        <div class="service-card" style="border-color: #2563eb">
+          <div class="service-icon" style="background: #dbeafe; color: #2563eb">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </div>
+          <h3>Facebook &amp; Instagram Ads</h3>
+          <p>
+            Anuncios que conectan con tu audiencia ideal en las redes sociales
+            más influyentes.
+          </p>
+          <a href="#contacto" class="more" style="color: #2563eb"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 4: seguridad -->
+        <div class="service-card" style="border-color: #10b981">
+          <div class="service-icon" style="background: #d1fae5; color: #10b981">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3>Seguridad</h3>
+          <p>
+            Protegemos tu datos y tus productos mediante tecnicas como
+            reCAPTCHA, entre otras.
+          </p>
+          <a href="#contacto" class="more" style="color: #10b981"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 5: Promociones -->
+        <div class="service-card" style="border-color: #7c3aed">
+          <div class="service-icon" style="background: #ede9fe; color: #7c3aed">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a14.5 14.5 0 0 0 0 20A14.5 14.5 0 0 0 12 2" />
+              <path d="M2 12h20" />
+            </svg>
+          </div>
+          <h3>Promociones</h3>
+          <p>Damos promociones para que tus productos se vendan mas.</p>
+          <a href="#contacto" class="more" style="color: #7c3aed"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 6: Servicio Domiciliario -->
+        <div class="service-card" style="border-color: #10b981">
+          <div class="service-icon" style="background: #d1fae5; color: #10b981">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </div>
+          <h3>Servicio Domiciliario</h3>
+          <p>
+            Ofrecemos servicio domiciliario gratuito en zonas cercanas y precios
+            bajos de contraentrega.
+          </p>
+          <a href="#contacto" class="more" style="color: #10b981"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 7: Automatización -->
+        <div class="service-card" style="border-color: #2563eb">
+          <div class="service-icon" style="background: #dbeafe; color: #2563eb">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8" />
+              <path d="M12 17v4" />
+              <path d="m9 8 3 3 3-3" />
+            </svg>
+          </div>
+          <h3>Automatización</h3>
+          <p>
+            Busquedas de productos y clientes rapidas gracias a nuestras bases
+            de datos.
+          </p>
+          <a href="#contacto" class="more" style="color: #2563eb"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+        <!-- Service 8: Metodos de Pago -->
+        <div class="service-card" style="border-color: #7c3aed">
+          <div class="service-icon" style="background: #ede9fe; color: #7c3aed">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" x2="18" y1="20" y2="10" />
+              <line x1="12" x2="12" y1="20" y2="4" />
+              <line x1="6" x2="6" y1="20" y2="14" />
+              <line x1="2" x2="22" y1="20" y2="20" />
+            </svg>
+          </div>
+          <h3>Metodos de Pago</h3>
+          <p>Metodos de pago faciles, sencillos y seguros.</p>
+          <a href="#contacto" class="more" style="color: #7c3aed"
+            >Más información
+            <svg class="icon-arrow" viewBox="0 0 24 24">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" /></svg
+          ></a>
+        </div>
+      </div>
     </section>
 
     <!-- ─── Process ─────────────────────────────────────────────────────── -->
     <section class="process">
-        <div class="text-center" style="margin-bottom:64px;">
-            <span class="section-badge" style="background:#ede9fe;border:1px solid #ddd6fe;color:#7c3aed;">Nuestro Proceso</span>
-            <h2 class="section-title">
-                De la Presentacion a los
-                <span class="gradient-text">resultados</span>
-            </h2>
-            <p class="section-sub">
-                Un proceso probado y transparente para garantizar el éxito de cada campaña.
-            </p>
-        </div>
+      <div class="text-center" style="margin-bottom: 64px">
+        <span
+          class="section-badge"
+          style="background: #ede9fe; border: 1px solid #ddd6fe; color: #7c3aed"
+          >Nuestro Proceso</span
+        >
+        <h2 class="section-title">
+          De la Presentacion a los
+          <span class="gradient-text">resultados</span>
+        </h2>
+        <p class="section-sub">
+          Un proceso probado y transparente para garantizar el éxito de cada
+          campaña.
+        </p>
+      </div>
 
-        <div class="process-grid">
-            <div class="process-connector"></div>
-            <!-- Step 1 -->
-            <div class="process-step">
-                <div class="circle" style="background:#2563EB;box-shadow:0 4px 20px rgba(37,99,235,0.44);">
-                    <span class="num">01</span>
-                    <span class="title">Presentacion</span>
-                </div>
-                <p>Ofrecemos nuestros servicios a pequeñas y medianas empresas, y a clientes que compren sus productos.</p>
-            </div>
-            <!-- Step 2 -->
-            <div class="process-step">
-                <div class="circle" style="background:#7c3aed;box-shadow:0 4px 20px rgba(124,58,237,0.44);">
-                    <span class="num">02</span>
-                    <span class="title">Analisis</span>
-                </div>
-                <p>Analisamos el mercado, los competidores y posibles clientes.</p>
-            </div>
-            <!-- Step 3 -->
-            <div class="process-step">
-                <div class="circle" style="background:#10b981;box-shadow:0 4px 20px rgba(16,185,129,0.44);">
-                    <span class="num">03</span>
-                    <span class="title">Implementación</span>
-                </div>
-                <p>Lanzamos nuestra web, nos publicitamos y activamos las ventas online.</p>
-            </div>
-            <!-- Step 4 -->
-            <div class="process-step">
-                <div class="circle" style="background:#7c3aed;box-shadow:0 4px 20px rgba(124,58,237,0.44);">
-                    <span class="num">04</span>
-                    <span class="title">Optimización</span>
-                </div>
-                <p>Monitoreamos resultados para reaccionar a ellos e implementar una mejor estrategia.</p>
-            </div>
-            <!-- Step 5 -->
-            <div class="process-step">
-                <div class="circle" style="background:#2563EB;box-shadow:0 4px 20px rgba(37,99,235,0.44);">
-                    <span class="num">05</span>
-                    <span class="title">Resultados</span>
-                </div>
-                <p>Entregamos reportes detallados y seguimos expandiendo nuestro dominio.</p>
-            </div>
+      <div class="process-grid">
+        <div class="process-connector"></div>
+        <!-- Step 1 -->
+        <div class="process-step">
+          <div
+            class="circle"
+            style="
+              background: #2563eb;
+              box-shadow: 0 4px 20px rgba(37, 99, 235, 0.44);
+            "
+          >
+            <span class="num">01</span>
+            <span class="title">Presentacion</span>
+          </div>
+          <p>
+            Ofrecemos nuestros servicios a pequeñas y medianas empresas, y a
+            clientes que compren sus productos.
+          </p>
         </div>
+        <!-- Step 2 -->
+        <div class="process-step">
+          <div
+            class="circle"
+            style="
+              background: #7c3aed;
+              box-shadow: 0 4px 20px rgba(124, 58, 237, 0.44);
+            "
+          >
+            <span class="num">02</span>
+            <span class="title">Analisis</span>
+          </div>
+          <p>Analisamos el mercado, los competidores y posibles clientes.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="process-step">
+          <div
+            class="circle"
+            style="
+              background: #10b981;
+              box-shadow: 0 4px 20px rgba(16, 185, 129, 0.44);
+            "
+          >
+            <span class="num">03</span>
+            <span class="title">Implementación</span>
+          </div>
+          <p>
+            Lanzamos nuestra web, nos publicitamos y activamos las ventas
+            online.
+          </p>
+        </div>
+        <!-- Step 4 -->
+        <div class="process-step">
+          <div
+            class="circle"
+            style="
+              background: #7c3aed;
+              box-shadow: 0 4px 20px rgba(124, 58, 237, 0.44);
+            "
+          >
+            <span class="num">04</span>
+            <span class="title">Optimización</span>
+          </div>
+          <p>
+            Monitoreamos resultados para reaccionar a ellos e implementar una
+            mejor estrategia.
+          </p>
+        </div>
+        <!-- Step 5 -->
+        <div class="process-step">
+          <div
+            class="circle"
+            style="
+              background: #2563eb;
+              box-shadow: 0 4px 20px rgba(37, 99, 235, 0.44);
+            "
+          >
+            <span class="num">05</span>
+            <span class="title">Resultados</span>
+          </div>
+          <p>
+            Entregamos reportes detallados y seguimos expandiendo nuestro
+            dominio.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- ─── Portfolio ───────────────────────────────────────────────────── -->
     <section id="portafolio" class="portfolio">
-        <div class="text-center" style="margin-bottom:60px;">
-            <span class="section-badge" style="background:#d1fae5;border:1px solid #a7f3d0;color:#059669;">Portafolio</span>
-            <h2 class="section-title">
-                Proyectos que hablan<br />
-                <span class="gradient-text-green">por sí solos</span>
-            </h2>
-            <p class="section-sub">
-                Casos de éxito reales con resultados medibles y sostenibles.
-            </p>
-        </div>
+      <div class="text-center" style="margin-bottom: 60px">
+        <span
+          class="section-badge"
+          style="background: #d1fae5; border: 1px solid #a7f3d0; color: #059669"
+          >Portafolio</span
+        >
+        <h2 class="section-title">
+          Proyectos que hablan<br />
+          <span class="gradient-text-green">por sí solos</span>
+        </h2>
+        <p class="section-sub">
+          Casos de éxito reales con resultados medibles y sostenibles.
+        </p>
+      </div>
 
-        <div class="portfolio-grid">
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                    <img src="Imagenes/Artesanias.jpeg" alt="Artesanias" />
-                    <span class="tag">SEO + Google Ads</span>
-                </div>
-                <div class="body">
-                    <h3>Artesanias Useche</h3>
-                    <p>+320% tráfico orgánico en 6 meses.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                   <a href="https://carta.menu/restaurants/cota-1/porkys-parrilla"> <img src="Imagenes/Restaurantes.jpeg" alt="Gastronomia" /></a>                    <span class="tag">Social Ads + Branding</span>
-                </div>
-                <div class="body">
-                    <h3>Restaurante Porkys</h3>
-                    <p>+20% de clientes nuevos.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                    <img src="Imagenes/Vivero.jpeg" alt="Viveros" />
-                    <span class="tag">Email + Automatización</span>
-                </div>
-                <div class="body">
-                    <h3>Floristeria Daviplantas</h3>
-                    <p>+85% Ventas Online.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                    <img src="Imagenes/Barberia.jpeg" alt="Barberia" />
-                    <span class="tag">Diseño Web + SEO</span>
-                </div>
-                <div class="body">
-                    <h3>Barberia Niche 2</h3>
-                    <p>El 95% de clientes vuelven.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                    <img src="Imagenes/Feria.jpeg" alt="Ferias" />
-                    <span class="tag">Google Ads + Analítica</span>
-                </div>
-                <div class="body">
-                    <h3>CotaFerias</h3>
-                    <p>Crecimiento del 40% en nuevos comerciantes.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
-            <div class="portfolio-card">
-                <div class="img-wrap">
-                    <img src="Imagenes/supermercado.jpeg" alt="EduPro Academy" />
-                    <span class="tag">Social Ads + Branding</span>
-                </div>
-                <div class="body">
-                    <h3>Mercado La Granja Cota</h3>
-                    <p>Reduccion del 46% en costos de publicidad.</p>
-                    <a href="#contacto" class="more">Ver caso completo <svg class="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-                </div>
-            </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <img src="Imagenes/Artesanias.jpeg" alt="Artesanias" />
+            <span class="tag">SEO + Google Ads</span>
+          </div>
+          <div class="body">
+            <h3>Artesanias Useche</h3>
+            <p>+320% tráfico orgánico en 6 meses.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
         </div>
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <a href="https://carta.menu/restaurants/cota-1/porkys-parrilla">
+              <img src="Imagenes/Restaurantes.jpeg" alt="Gastronomia"
+            /></a>
+            <span class="tag">Social Ads + Branding</span>
+          </div>
+          <div class="body">
+            <h3>Restaurante Porkys</h3>
+            <p>+20% de clientes nuevos.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <img src="Imagenes/Vivero.jpeg" alt="Viveros" />
+            <span class="tag">Email + Automatización</span>
+          </div>
+          <div class="body">
+            <h3>Floristeria Daviplantas</h3>
+            <p>+85% Ventas Online.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <img src="Imagenes/Barberia.jpeg" alt="Barberia" />
+            <span class="tag">Diseño Web + SEO</span>
+          </div>
+          <div class="body">
+            <h3>Barberia Niche 2</h3>
+            <p>El 95% de clientes vuelven.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <img src="Imagenes/Feria.jpeg" alt="Ferias" />
+            <span class="tag">Google Ads + Analítica</span>
+          </div>
+          <div class="body">
+            <h3>CotaFerias</h3>
+            <p>Crecimiento del 40% en nuevos comerciantes.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="img-wrap">
+            <img src="Imagenes/supermercado.jpeg" alt="EduPro Academy" />
+            <span class="tag">Social Ads + Branding</span>
+          </div>
+          <div class="body">
+            <h3>Mercado La Granja Cota</h3>
+            <p>Reduccion del 46% en costos de publicidad.</p>
+            <a href="#contacto" class="more"
+              >Ver caso completo
+              <svg class="icon-arrow" viewBox="0 0 24 24">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ─── Pricing ─────────────────────────────────────────────────────── -->
     <section id="precios" class="pricing">
-        <div class="text-center" style="margin-bottom:60px;">
-            <span class="section-badge" style="background:#eff6ff;border:1px solid #bfdbfe;color:#2563EB;">Planes y Precios</span>
-            <h2 class="section-title">
-                Inversión inteligente,<br />
-                <span class="gradient-text">resultados medibles</span>
-            </h2>
-            <p class="section-sub">
-                Estrategias transparentes, ejecución profesional y resultados que impulsan el crecimiento sostenible de tu empresa.
+      <div class="text-center" style="margin-bottom: 60px">
+        <span
+          class="section-badge"
+          style="background: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb"
+          >Planes y Precios</span
+        >
+        <h2 class="section-title">
+          Inversión inteligente,<br />
+          <span class="gradient-text">resultados medibles</span>
+        </h2>
+        <p class="section-sub">
+          Estrategias transparentes, ejecución profesional y resultados que
+          impulsan el crecimiento sostenible de tu empresa.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Plan Básico -->
+        <div class="pricing-card">
+          <div class="inner">
+            <div class="plan-name dark">Básico</div>
+            <div class="price dark">
+              $19.999<span class="period dark">/mes</span>
+            </div>
+            <p class="desc dark">
+              Ideal para negocios que dan sus primeros pasos en digital.
             </p>
+            <div class="features">
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Gestión profesional de redes sociales.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Creación y programación de contenido mensual.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Reportes mensuales de rendimiento.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Diseño de piezas publicitarias básicas.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Optimización de perfiles corporativos.</span
+                >
+              </div>
+            </div>
+            <a href="#contacto" class="btn-plan dark">Contratar Plan</a>
+          </div>
         </div>
 
-        <div class="pricing-grid">
-            <!-- Plan Básico -->
-            <div class="pricing-card">
-                <div class="inner">
-                    <div class="plan-name dark">Básico</div>
-                    <div class="price dark">$19.999<span class="period dark">/mes</span></div>
-                    <p class="desc dark">Ideal para negocios que dan sus primeros pasos en digital.</p>
-                    <div class="features">
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Gestión profesional de redes sociales.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Creación y programación de contenido mensual.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Reportes mensuales de rendimiento.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Diseño de piezas publicitarias básicas.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Optimización de perfiles corporativos.</span></div>
-                    </div>
-                    <a href="#contacto" class="btn-plan dark">Contratar Plan</a>
-                </div>
+        <!-- Plan Profesional (Featured) -->
+        <div class="pricing-card featured">
+          <div class="popular">⭐ MÁS POPULAR</div>
+          <div class="inner">
+            <div class="plan-name light">Profesional</div>
+            <div class="price light">
+              $59.999<span class="period light">/mes</span>
             </div>
-
-            <!-- Plan Profesional (Featured) -->
-            <div class="pricing-card featured">
-                <div class="popular">⭐ MÁS POPULAR</div>
-                <div class="inner">
-                    <div class="plan-name light">Profesional</div>
-                    <div class="price light">$59.999<span class="period light">/mes</span></div>
-                    <p class="desc light">La elección más popular para negocios en crecimiento.</p>
-                    <div class="features">
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Todo lo del plan Básico</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Gestión y optimización de campañas publicitarias (Meta Ads y Google Ads).</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Desarrollo de estrategias de marketing digital.</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Diseño y desarrollo de páginas web o landing pages.</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Email Marketing y automatización básica.</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Análisis de métricas y optimización de resultados.</span></div>
-                        <div class="feat"><div class="check light"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text light">Informes detallados con indicadores de desempeño.</span></div>
-                    </div>
-                    <a href="#contacto" class="btn-plan light">Contratar Plan</a>
+            <p class="desc light">
+              La elección más popular para negocios en crecimiento.
+            </p>
+            <div class="features">
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
                 </div>
-            </div>
-
-            <!-- Plan Premium -->
-            <div class="pricing-card">
-                <div class="inner">
-                    <div class="plan-name dark">Premium</div>
-                    <div class="price dark">$99.999<span class="period dark">/mes</span></div>
-                    <p class="desc dark">Solución completa para empresas que buscan dominar su mercado.</p>
-                    <div class="features">
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Todo lo del plan Profesional</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Consultoría estratégica y planificación comercial.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Desarrollo de un plan integral de marketing 360°.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Estrategias avanzadas de posicionamiento SEO y SEM.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Gestión profesional de campañas publicitarias multicanal.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Automatización de procesos comerciales y de marketing.</span></div>
-                        <div class="feat"><div class="check dark"><svg class="icon-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><span class="text dark">Acompañamiento estratégico continuo y reuniones periódicas con especialistas.</span></div>
-                    </div>
-                    <a href="#contacto" class="btn-plan dark">Contratar Plan</a>
+                <span class="text light">Todo lo del plan Básico</span>
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
                 </div>
+                <span class="text light"
+                  >Gestión y optimización de campañas publicitarias (Meta Ads y
+                  Google Ads).</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text light"
+                  >Desarrollo de estrategias de marketing digital.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text light"
+                  >Diseño y desarrollo de páginas web o landing pages.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text light"
+                  >Email Marketing y automatización básica.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text light"
+                  >Análisis de métricas y optimización de resultados.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check light">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text light"
+                  >Informes detallados con indicadores de desempeño.</span
+                >
+              </div>
             </div>
+            <a href="#contacto" class="btn-plan light">Contratar Plan</a>
+          </div>
         </div>
+
+        <!-- Plan Premium -->
+        <div class="pricing-card">
+          <div class="inner">
+            <div class="plan-name dark">Premium</div>
+            <div class="price dark">
+              $99.999<span class="period dark">/mes</span>
+            </div>
+            <p class="desc dark">
+              Solución completa para empresas que buscan dominar su mercado.
+            </p>
+            <div class="features">
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark">Todo lo del plan Profesional</span>
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Consultoría estratégica y planificación comercial.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Desarrollo de un plan integral de marketing 360°.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Estrategias avanzadas de posicionamiento SEO y SEM.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Gestión profesional de campañas publicitarias
+                  multicanal.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Automatización de procesos comerciales y de marketing.</span
+                >
+              </div>
+              <div class="feat">
+                <div class="check dark">
+                  <svg class="icon-check" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <span class="text dark"
+                  >Acompañamiento estratégico continuo y reuniones periódicas
+                  con especialistas.</span
+                >
+              </div>
+            </div>
+            <a href="#contacto" class="btn-plan dark">Contratar Plan</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ─── Testimonials ────────────────────────────────────────────────── -->
     <section id="testimonios" class="testimonials">
-        <div class="text-center" style="margin-bottom:60px;">
-            <span class="section-badge" style="background:#fef3c7;border:1px solid #fde68a;color:#d97706;">Testimonios</span>
-            <h2 class="section-title">
-                Lo que dicen nuestros
-                <span class="gradient-text">clientes</span>
-            </h2>
+      <div class="text-center" style="margin-bottom: 60px">
+        <span
+          class="section-badge"
+          style="background: #fef3c7; border: 1px solid #fde68a; color: #d97706"
+          >Testimonios</span
+        >
+        <h2 class="section-title">
+          Lo que dicen nuestros
+          <span class="gradient-text">clientes</span>
+        </h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+          </div>
+          <blockquote>
+            "Ya eramos un restaurante posisionado en parcelas, sin embargo,
+            atravez de campañas publicitarias logramos que nuevos clientes fijos
+            llegaran."
+          </blockquote>
+          <div class="author">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop&auto=format"
+              alt="Camila Herrera"
+            />
+            <div>
+              <div class="name">Camila Herrera</div>
+              <div class="role">
+                Propietaria <span class="company">Porkys</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <div class="stars">
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                </div>
-                <blockquote>"Ya eramos un restaurante posisionado en parcelas, sin embargo, atravez de campañas publicitarias logramos que nuevos clientes fijos llegaran."</blockquote>
-                <div class="author">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop&auto=format" alt="Camila Herrera" />
-                    <div>
-                        <div class="name">Camila Herrera</div>
-                        <div class="role">Propietaria <span class="company">Porkys</span></div>
-                    </div>
-                </div>
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+          </div>
+          <blockquote>
+            "Gracias a las tecnicas y estrategias implementadas, pude ganar
+            clientes y que estos regresaran al mes siguiente."
+          </blockquote>
+          <div class="author">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&auto=format"
+              alt="Andrés Molina"
+            />
+            <div>
+              <div class="name">Andrés Molina</div>
+              <div class="role">
+                Barbero · <span class="company">Niche 2</span>
+              </div>
             </div>
-
-            <div class="testimonial-card">
-                <div class="stars">
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                </div>
-                <blockquote>"Gracias a las tecnicas y estrategias implementadas, pude ganar clientes y que estos regresaran al mes siguiente."</blockquote>
-                <div class="author">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&auto=format" alt="Andrés Molina" />
-                    <div>
-                        <div class="name">Andrés Molina</div>
-                        <div class="role">Barbero · <span class="company">Niche 2</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-card">
-                <div class="stars">
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
-                </div>
-                <blockquote>"Vender flores es complicado, pero gracias a las ventas online mi negocio crecio, y no nesecito gastar mucho en las entregas."</blockquote>
-                <div class="author">
-                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&fit=crop&auto=format" alt="Laura Quintero" />
-                    <div>
-                        <div class="name">Laura Quintero</div>
-                        <div class="role">Jardinera · <span class="company">Daviplantas</span></div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+          </div>
+          <blockquote>
+            "Vender flores es complicado, pero gracias a las ventas online mi
+            negocio crecio, y no nesecito gastar mucho en las entregas."
+          </blockquote>
+          <div class="author">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&fit=crop&auto=format"
+              alt="Laura Quintero"
+            />
+            <div>
+              <div class="name">Laura Quintero</div>
+              <div class="role">
+                Jardinera · <span class="company">Daviplantas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ─── FAQ ─────────────────────────────────────────────────────────── -->
     <section class="faq">
-        <div class="text-center" style="margin-bottom:56px;">
-            <span class="section-badge" style="background:#eff6ff;border:1px solid #bfdbfe;color:#2563EB;">FAQ</span>
-            <h2 class="section-title">
-                Preguntas
-                <span class="gradient-text">frecuentes</span>
-            </h2>
-        </div>
+      <div class="text-center" style="margin-bottom: 56px">
+        <span
+          class="section-badge"
+          style="background: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb"
+          >FAQ</span
+        >
+        <h2 class="section-title">
+          Preguntas
+          <span class="gradient-text">frecuentes</span>
+        </h2>
+      </div>
 
-        <div class="faq-list">
-            <div class="faq-item" data-faq="0">
-                <button onclick="toggleFaq(0)">
-                    <span>¿Cuánto tarda en verse resultados?</span>
-                    <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                </button>
-                <div class="answer">Los resultados varían según el servicio. Con Google Ads y Social Ads puedes ver resultados en 2-4 semanas. Para SEO, los primeros resultados significativos suelen verse entre los 3 y 6 meses, aunque con acciones técnicas tempranas se pueden adelantar mejoras notables.</div>
-            </div>
-            <div class="faq-item" data-faq="1">
-                <button onclick="toggleFaq(1)">
-                    <span>¿Ofrecen contratos a largo plazo?</span>
-                    <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                </button>
-                <div class="answer">Trabajamos con contratos mensuales renovables, sin penalidades por cancelación anticipada. Creemos en retener a nuestros clientes por resultados, no por obligaciones contractuales. Ofrecemos descuentos especiales para compromisos de 6 y 12 meses.</div>
-            </div>
-            <div class="faq-item" data-faq="2">
-                <button onclick="toggleFaq(2)">
-                    <span>¿Qué plataformas de marketing manejan?</span>
-                    <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                </button>
-                <div class="answer">Gestionamos Google Ads (Search, Display, YouTube, Shopping), Meta Ads (Facebook e Instagram), LinkedIn Ads, TikTok Ads, email marketing con HubSpot, Mailchimp y ActiveCampaign, y herramientas de SEO como SEMrush y Search Console.</div>
-            </div>
-            <div class="faq-item" data-faq="3">
-                <button onclick="toggleFaq(3)">
-                    <span>¿Cómo funciona el soporte al cliente?</span>
-                    <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-                </button>
-                <div class="answer">Cada cliente tiene un account manager dedicado. Ofrecemos soporte por email y WhatsApp en horario de oficina (Lun-Vie 8am-7pm) para todos los planes. El plan Profesional y Premium incluyen soporte prioritario 24/7 y reuniones quincenales de seguimiento.</div>
-            </div>
+      <div class="faq-list">
+        <div class="faq-item" data-faq="0">
+          <button onclick="toggleFaq(0)">
+            <span>¿Cuánto tarda en verse resultados?</span>
+            <svg
+              class="chevron"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="answer">
+            Los resultados varían según el servicio. Con Google Ads y Social Ads
+            puedes ver resultados en 2-4 semanas. Para SEO, los primeros
+            resultados significativos suelen verse entre los 3 y 6 meses, aunque
+            con acciones técnicas tempranas se pueden adelantar mejoras
+            notables.
+          </div>
         </div>
+        <div class="faq-item" data-faq="1">
+          <button onclick="toggleFaq(1)">
+            <span>¿Ofrecen contratos a largo plazo?</span>
+            <svg
+              class="chevron"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="answer">
+            Trabajamos con contratos mensuales renovables, sin penalidades por
+            cancelación anticipada. Creemos en retener a nuestros clientes por
+            resultados, no por obligaciones contractuales. Ofrecemos descuentos
+            especiales para compromisos de 6 y 12 meses.
+          </div>
+        </div>
+        <div class="faq-item" data-faq="2">
+          <button onclick="toggleFaq(2)">
+            <span>¿Qué plataformas de marketing manejan?</span>
+            <svg
+              class="chevron"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="answer">
+            Gestionamos Google Ads (Search, Display, YouTube, Shopping), Meta
+            Ads (Facebook e Instagram), LinkedIn Ads, TikTok Ads, email
+            marketing con HubSpot, Mailchimp y ActiveCampaign, y herramientas de
+            SEO como SEMrush y Search Console.
+          </div>
+        </div>
+        <div class="faq-item" data-faq="3">
+          <button onclick="toggleFaq(3)">
+            <span>¿Cómo funciona el soporte al cliente?</span>
+            <svg
+              class="chevron"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          <div class="answer">
+            Cada cliente tiene un account manager dedicado. Ofrecemos soporte
+            por email y WhatsApp en horario de oficina (Lun-Vie 8am-7pm) para
+            todos los planes. El plan Profesional y Premium incluyen soporte
+            prioritario 24/7 y reuniones quincenales de seguimiento.
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ─── CTA ─────────────────────────────────────────────────────────── -->
     <section class="cta">
-        <div class="bg-blob bg-blob-1"></div>
-        <div class="bg-blob bg-blob-2"></div>
-        <div class="inner">
-            <div class="badge">Empieza Hoy — Es Gratis</div>
-            <h2>¿Listo para hacer crecer<br />tu negocio?</h2>
-            <p>Solicita una asesoría gratuita de 30 minutos y descubre nuevas oportunidades para hacer crecer tu negocio.</p>
-            <div class="cta-actions">
-                <a href="#contacto" class="btn-white">Agendar una reunión</a>
-                <a href="https://wa.me/+573203743635" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
-                    <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-                        <path d="M11.998 2C6.478 2 2 6.478 2 12c0 1.75.455 3.395 1.25 4.826L2 22l5.299-1.226A9.944 9.944 0 0 0 12 22c5.522 0 10-4.477 10-10S17.52 2 11.998 2zm.002 18a8 8 0 0 1-4.078-1.117l-.292-.174-3.144.727.768-3.063-.19-.315A7.954 7.954 0 0 1 4 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/>
-                    </svg>
-                    Contactar por WhatsApp
-                </a>
-            </div>
+      <div class="bg-blob bg-blob-1"></div>
+      <div class="bg-blob bg-blob-2"></div>
+      <div class="inner">
+        <div class="badge">Empieza Hoy — Es Gratis</div>
+        <h2>¿Listo para hacer crecer<br />tu negocio?</h2>
+        <p>
+          Solicita una asesoría gratuita de 30 minutos y descubre nuevas
+          oportunidades para hacer crecer tu negocio.
+        </p>
+        <div class="cta-actions">
+          <a href="#contacto" class="btn-white">Agendar una reunión</a>
+          <a
+            href="https://wa.me/+573203743635"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-whatsapp"
+          >
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"
+              />
+              <path
+                d="M11.998 2C6.478 2 2 6.478 2 12c0 1.75.455 3.395 1.25 4.826L2 22l5.299-1.226A9.944 9.944 0 0 0 12 22c5.522 0 10-4.477 10-10S17.52 2 11.998 2zm.002 18a8 8 0 0 1-4.078-1.117l-.292-.174-3.144.727.768-3.063-.19-.315A7.954 7.954 0 0 1 4 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"
+              />
+            </svg>
+            Contactar por WhatsApp
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- ─── Footer ──────────────────────────────────────────────────────── -->
     <footer id="contacto" class="footer">
-        <div class="footer-grid">
-            <!-- Brand -->
-            <div class="footer-brand">
-                <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
-                    <div class="logo-icon">
-                       <img style="height: 50px;width: 50px;margin-top: 10px;" src="Imagenes/bitmap3.png" alt="">
-                    </div>
-                    <span class="logo-text">Market Is Yours<span>.</span></span>
-                </div>
-                <p>Agencia de marketing digital con 1 año transformando negocios a través de estrategias basadas en datos y creatividad.</p>
-                <div class="footer-social">
-
-                    <a href="https://www.instagram.com/@marketisyours01/" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
-                    <a href="https://www.facebook.com/share/1Pr8NbJAoH/" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-                    <a href="https://www.youtube.com/@marketisyours01" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
-                </div>
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 16px;
+            "
+          >
+            <div class="logo-icon">
+              <img
+                style="height: 50px; width: 50px; margin-top: 10px"
+                src="Imagenes/bitmap3.png"
+                alt=""
+              />
             </div>
-
-            <!-- Quick links -->
-            <div class="footer-col">
-                <div class="title">Empresa</div>
-                <a href="#inicio">Inicio</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#portafolio">Portafolio</a>
-                <a href="#testimonios">Testimonios</a>
-                <a href="#">Blog</a>
-                <a href="#precios">Precios</a>
-            </div>
-
-            <!-- Services -->
-            <div class="footer-col">
-                <div class="title">Servicios</div>
-                <a href="#servicios">Ventas Digitales</a>
-                <a href="#servicios">Campañas publicitarias</a>
-                <a href="#servicios">Facebook & Instagram Ads</a>
-                <a href="#servicios">Seguridad</a>
-                <a href="#servicios">Servicio Domiciliario</a>
-                <a href="#servicios">Automatización</a>
-            </div>
-
-            <!-- Contact + Newsletter -->
-            <div>
-                <div class="title" style="font-size:11px;font-weight:800;color:rgba(255,255,255,0.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:20px;">Contacto</div>
-                <div class="footer-contact">
-                    <a href="tel:+57 320 374 3635">
-                        <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
-                        +57 320 374 3635
-                    </a>
-                    <a href="mailto:hola@nexusmarketing.com">
-                        <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
-                        marketisyours01@gmail.com
-                    </a>
-                    <a href="#">
-                        <span class="icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
-                        Parque De la Florida: Engativa
-                    </a>
-                </div>
-
-                <div class="footer-newsletter" style="margin-top:28px;">
-                    <div class="label">Boletín semanal</div>
-                    <div id="newsletterContainer">
-                        <form id="newsletterForm" onsubmit="handleNewsletter(event)">
-                            <input type="email" id="newsletterEmail" placeholder="tu@email.com" required />
-                            <button type="submit">OK</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            <span class="logo-text">Market Is Yours<span>.</span></span>
+          </div>
+          <p>
+            Agencia de marketing digital con 1 año transformando negocios a
+            través de estrategias basadas en datos y creatividad.
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://www.instagram.com/@marketisyours01/"
+              aria-label="Instagram"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/share/1Pr8NbJAoH/"
+              aria-label="Facebook"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.youtube.com/@marketisyours01"
+              aria-label="YouTube"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                /></svg
+            ></a>
+          </div>
         </div>
 
-        <div class="footer-bottom">
-            <div class="copy">© 2026 Market Is Yours. Todos los derechos reservados.</div>
-            <div class="links">
-                <a href="#">Términos de uso</a>
-                <a href="#">Privacidad</a>
-                <a href="#">Cookies</a>
-            </div>
+        <!-- Quick links -->
+        <div class="footer-col">
+          <div class="title">Empresa</div>
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#">Blog</a>
+          <a href="#precios">Precios</a>
         </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <div class="title">Servicios</div>
+          <a href="#servicios">Ventas Digitales</a>
+          <a href="#servicios">Campañas publicitarias</a>
+          <a href="#servicios">Facebook & Instagram Ads</a>
+          <a href="#servicios">Seguridad</a>
+          <a href="#servicios">Servicio Domiciliario</a>
+          <a href="#servicios">Automatización</a>
+        </div>
+
+        <!-- Contact + Newsletter -->
+        <div>
+          <div
+            class="title"
+            style="
+              font-size: 11px;
+              font-weight: 800;
+              color: rgba(255, 255, 255, 0.35);
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              margin-bottom: 20px;
+            "
+          >
+            Contacto
+          </div>
+          <div class="footer-contact">
+            <a href="tel:+57 320 374 3635">
+              <span class="icon"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                  /></svg
+              ></span>
+              +57 320 374 3635
+            </a>
+            <a href="mailto:hola@nexusmarketing.com">
+              <span class="icon"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg
+              ></span>
+              marketisyours01@gmail.com
+            </a>
+            <a href="#">
+              <span class="icon"
+                ><svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" /></svg
+              ></span>
+              Parque De la Florida: Engativa
+            </a>
+          </div>
+
+          <div class="footer-newsletter" style="margin-top: 28px">
+            <div class="label">Boletín semanal</div>
+            <div id="newsletterContainer">
+              <form id="newsletterForm" onsubmit="handleNewsletter(event)">
+                <input
+                  type="email"
+                  id="newsletterEmail"
+                  placeholder="tu@email.com"
+                  required
+                />
+                <button type="submit">OK</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copy">
+          © 2026 Market Is Yours. Todos los derechos reservados.
+        </div>
+        <div class="links">
+          <a href="#">Términos de uso</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
